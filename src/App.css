@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,49 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopping-card{
+  justify-content: space-between;
+  background-color: #61dafb;
+  padding: 20px 30px;
+}
+
+.brand{
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.hero{
+  margin-top: 10% !important;
+}
+
+.hero-cart{
+  margin-top: 6% !important;
+  margin-bottom: 5% !important;
+}
+
+.product-item{
+  padding: 30px;
+}
+
+.price{
+  color: hsla(51, 88%, 10%, 0.774) !important;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+
+
+@media(max-width: 600px){
+  .hero-cart{
+    margin-top: 25% !important;
+    margin-bottom: 5% !important;
   }
 }
